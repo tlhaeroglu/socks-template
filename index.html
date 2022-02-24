@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulama</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+</head>
+<style>
+    body{
+    background-color: #ee5522;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23ca481d' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    nav{
+        opacity: 0.94;
+    }
+.home{
+    height: 300px;
+}
+
+.home-font{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.home-text{
+    font-size: 3rem;
+}
+
+.home-btn{
+    font-size: 1.9rem;
+}
+
+.home-color{
+    color: rgb(255, 255, 0);
+}
+
+.margin-top{
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+
+#about{
+    background-image: url('img/3793.jpg');
+    opacity: 0.94;
+}
+#about-h1{
+    margin-left: .5rem;
+    opacity: 0.6;
+    color: #ee5522;
+}
+
+#about-h2{
+    opacity: 0.8;
+}
+
+#about-p{
+    margin-top: 2rem;
+}
+
+.about-2{
+    max-width: 30rem;
+    height: auto;
+}
+
+.store-img {
+  transition: all 1s ease-in-out;
+}
+.img-container:hover .store-img {
+  transform: scale(1.2);
+}
+
+
+
+</style>
+<body>
+
+    <nav class="w-100 navbar bg-light navbar-light navbar-expand-sm sticky-top">
+
+		<a href="#" class="navbar-brand">CorapShop</a>
+        
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+			<ul class="navbar-nav float-right">
+				<li class="nav-item">
+					<a href="#" class="nav-link home-font">Ana Sayfa</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link home-font">Çorap Çeşitleri</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link home-font">İletişim</a>
+				</li>
+			</ul>
+		</div>
+    </nav>
+
+
+    <div class="container m-auto">
+        <div class="bg-transparent home text-center margin-top">
+            <p class="home-font home-text text-light">Çorap Dünyasına</p>
+            <p class="home-font home-text home-color">Hoşgeldiniz</p>
+            <button class="btn btn-outline-light home-font home-btn">Keşfet</button>
+        </div>
+    </div>
+
+    <div id="about" class="w-100">
+        <div class="row bg-light text-center py-5">
+            <div class="col-md-6 col-sm-12 px-3 align-self-center">
+                <h4 id="about-h2" class="h2 home-font">Bizim<span id="about-h1" class="home-font h1"> Hakkımızda</span></h4>
+                <p id="about-p" class="lead home-font">
+                    Çorap satışımız yıllardır süregelir. Müşterilerimize %100 memnuniyet güvencesi ilee..
+                    Satışlarımız şeffaf şekilde kargolanır. Güvenlik önceliğimizdir. Daha sizin için napak hemşerim :)
+                </p>
+                <button class="btn btn-outline-dark home-font">Keşfet</button>
+            </div>
+
+            <div class="col-md-6 col-sm-12 px-3 about-2 m-auto">
+                <img src="img/about.png" class="img-fluid my-5" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="m-auto">
+        <div class="text-center py-5 mt-5">
+            <p class="home-font home-text home-color">Ürünlerimiz</p>
+        </div>
+    </div>
+
+    <div class="w-100 my-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks1.png" class="card-img-top store-img img-responsive" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks2.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks3.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks3.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks2.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks1.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks2.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks1.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card m-5 ad">
+                    <div class="img-container">
+                        <img src="img/socks3.png" class="card-img-top store-img" alt="">
+                    </div>
+                    <div class="card-body">
+                       <div class="card-text">
+                           <p class="home-font lead">Çorap 1</p>
+                           <button class="btn btn-outline-success home-font">Satın Al</button>
+                           <p class="home-font lead float-right">10 $</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+</body>
+</html>
